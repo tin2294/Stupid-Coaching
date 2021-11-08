@@ -1,0 +1,25 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<h1>Stupid Coaching</h1>
+
+<div id="chat">
+  <div class="answers">
+    <h3><%= params[:question] %></h3>
+    <p>- You</p>
+  </div>
+  <div class="answers" id="coach">
+    <h3><%= @answer %></h3>
+    <p>- Your Stupid Coach</p>
+  </div>
+  <br>
+  <div class="links">
+    <%= link_to "Anything else to say?", ask_path %>
+    <%= link_to ask_path do %>
+      <%= image_tag "https://sites.google.com/site/eportafolioluisangel/_/rsrc/1485745186209/indirect-questions/4080354b8aa40b5c97e249598b4604f9_question-mark-icon-png-clipart-question-clipart-png_1500-1500.png?height=300px&width=100%25", style: "width: 40px" %>
+    <% end %>
+  </div>
+</div>

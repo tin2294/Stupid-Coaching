@@ -1,0 +1,15 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<div>
+  <h1><strong>Stupid Coaching</strong></h1>
+</div>
+<div>
+  <h3>Dare Say Something to Your Coach</h3>
+  <form action="/answer" method="get">
+    <input type="text" name="question" value="<%= params[:question] %>"><input type="submit" class="btn" value="Ask Away">
+  </form>
+</div>

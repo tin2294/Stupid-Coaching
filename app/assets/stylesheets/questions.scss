@@ -1,0 +1,41 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ body {
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+ }
+
+ div {
+   margin: 10px;
+ }
+
+ input {
+   border-radius: 0;
+   border: 1px solid gray;
+   height: 30px;
+ }
+
+ .btn {
+   background-color: #24a0ed;
+   border: 1px solid gray;
+   height: 34px;
+ }
+
+ #chat {
+   text-align: left;
+ }
+
+ .answers {
+   padding: 8px;
+   border-left: 8px solid rgb(220,220,220);
+ }
+
+ #coach {
+   background-color: rgba(255,255,102,0.3);
+ }
+
+ .links {
+   padding-left: 8px;
+ }
