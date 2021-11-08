@@ -13,5 +13,3 @@ class QuestionsController < ApplicationController
     end
   end
 end
-
-take_screenshot
